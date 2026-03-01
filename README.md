@@ -12,19 +12,19 @@ At the receiver, the pilot component is correlated with a locally generated sinu
 
 Transmitted signal:
 
-s(t) = m(t) + A sin(ωt)
-
-At the receiver:
-
-Cross term:
-C = (1/T) ∫ x(t)y(t) dt
-
-RMS values:
-Rx = sqrt[(1/T) ∫ x²(t) dt]
-Ry = sqrt[(1/T) ∫ y²(t) dt]
-
-Normalized correlation:
-ρ = C / (Rx Ry)
+  s(t) = m(t) + A sin(ωt)
+  
+  At the receiver:
+  
+  Cross term:
+  C = (1/T) ∫ x(t)y(t) dt
+  
+  RMS values:
+  Rx = sqrt[(1/T) ∫ x²(t) dt]
+  Ry = sqrt[(1/T) ∫ y²(t) dt]
+  
+  Normalized correlation:
+  ρ = C / (Rx Ry)
 
 If ρ falls below a predefined threshold, the signal is considered excessively degraded and can be rejected or flagged.
 
